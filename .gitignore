@@ -1,0 +1,12 @@
+.idea
+*.iml
+out
+gen
+*.vswp
+.DS_Store
+_v_recycle_bin
+*.swp
+*.log
+_v_recycle_bin/
+*.vswp
+~$*.*
