@@ -5,7 +5,7 @@
 
 ## 文件
 
-- [prometheus配置讲解.md](./prometheus配置讲解.md)
+- [prometheus-配置讲解.md](./prometheus-配置讲解.md)
 
 ---
 

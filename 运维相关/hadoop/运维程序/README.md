@@ -5,8 +5,8 @@
 
 ## 文件
 
-- [yarn kill接口.md](./yarn kill接口.md)
-- [yarn清理job.md](./yarn清理job.md)
+- [yarn-kill接口.md](./yarn-kill接口.md)
+- [yarn-清理job.md](./yarn-清理job.md)
 
 ---
 

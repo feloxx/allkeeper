@@ -5,9 +5,9 @@
 
 ## 文件
 
-- [presto 启动停止.md](./presto 启动停止.md)
-- [presto 收集日常SQL.md](./presto 收集日常SQL.md)
-- [presto 长任务kill.md](./presto 长任务kill.md)
+- [presto-启动停止.md](./presto-启动停止.md)
+- [presto-收集日常SQL.md](./presto-收集日常SQL.md)
+- [presto-长任务kill.md](./presto-长任务kill.md)
 
 ---
 
