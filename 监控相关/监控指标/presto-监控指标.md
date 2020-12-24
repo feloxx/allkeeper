@@ -1,7 +1,5 @@
 # presto监控指标
 
-> 只进行监控，后续产生的衍生操作请参阅 运维相关 中 各组件的 运维程序
-
 ## 介绍
 
 - presto 监控 （兼容prometheus grafana的jmx）
