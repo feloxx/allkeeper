@@ -1,11 +1,11 @@
 # markdown开发规范
 
-这是参（复）考（制）了TiDB的文档开发markdown规范，大家学一学文档更得劲。
+这是参（复）考（制）了TiDB的文档开发markdown规范,大家学一学,文档更得劲;
 
  [markdownlint 规则](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md)
 
 | NO. | 规则 | 描述 |
-| :-- | :-- | :-- |
+| --- | --- | --- |
 | 1 | [MD001 - Heading levels should only increment by one level at a time](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md001---heading-levels-should-only-increment-by-one-level-at-a-time) | 标题从一级开始递增使用，禁止跳级使用。例如：一级标题下面不能直接使用三级标题；二级标题下面不能直接使用四级标题。 |
 | 2 | [MD003 - Heading style](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md003---heading-style) | 标题必须统一使用 ATX 风格，即在标题前加 `#` 号来表示标题级别。 |
 | 3 | [MD018 - No space after hash on atx style heading](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md018---no-space-after-hash-on-atx-style-heading) | 标题的引导符号 `#` 后必须**空一格**再接标题内容。 |
@@ -27,7 +27,7 @@
 | 29 | [MD034 - Bare URL used](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md034---bare-url-used) | 文档中禁止出现裸露的 URL。如果希望用户能直接点击并打开该 URL，则使用一对尖括号 (`<URL>`) 包裹该 URL。如果由于特殊情况必须使用裸露的 URL，不需要用户通过点击打开，则使用一对反引号 (`` `URL` ``) 包裹该 URL。 |
 | 20 | [MD037 - Spaces inside emphasis markers](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md037---spaces-inside-emphasis-markers) | 使用加粗、斜体等强调效果时，在强调标识符内禁止出现多余的空格。如不能出现 `` `** 加粗文本 **` ``。 |
 | 21 | [MD038 - Spaces inside code span elements](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md038---spaces-inside-code-span-elements) | 单个反引号包裹的代码块内禁止出现多余的空格。如不能出现 `` ` 示例文本 ` ``。 |
-| 22 | [MD039 - Spaces inside link text](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md039---spaces-inside-link-text) | 链接文本两边禁止出现多余的空格。如不能出现 `[ 某链接 ](https://www.example.com/)`。 |
+| 22 | [MD039 - Spaces inside link text](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md039---spaces-inside-link-text) | 链接文本两边禁止出现多余的空格。如不能出现 `` `[ 某链接 ](https://www.example.com/)` ``。 |
 | 23 | [MD042 - No empty links](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md042---no-empty-links) | 链接必须有链接路径。如不能出现`[空链接]()`或`[空链接](#)`等情况。 |
 | 24 | [MD045 - Images should have alternate text (alt text)](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md045---images-should-have-alternate-text-alt-text) | 图片链接必须添加描述文本（即 `[]()` 的 `[]` 内必须有描述文字），这是为了让无法加载出图片的人看到图片的描述性文字。 |
 | 25 | [MD046 - Code block style](https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md#md046---code-block-style) | 文档中的代码块统一使用**三个反引号** ` ``` ` 进行包裹，**禁止**使用**缩进四格**风格的代码块。 |
